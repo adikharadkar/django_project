@@ -3,16 +3,16 @@ from django.http import HttpResponse
 
 posts =[
 	{
-		"Author": "Aditya Kharadkar",
-		"Title": "Python",
-		"Date": "August 27, 2022",
-		"Content": "This is an article or post about Python."
+		"author": "Aditya Kharadkar",
+		"title": "Python",
+		"date_posted": "August 27, 2022",
+		"content": "This is an article or post about Python."
 	},
 	{
-		"Author": "Prasad Kulkarni",
-		"Title": "Account",
-		"Date": "August 28, 2022",
-		"Content": "This is an article or post about Accounts."
+		"author": "Prasad Kulkarni",
+		"title": "Account",
+		"date_posted": "August 28, 2022",
+		"content": "This is an article or post about Accounts."
 	},
 ]
 
